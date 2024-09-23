@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <i id="homeIcon" class="fa-solid fa-house home-icon"></i>
+
+    <div class="instructions-container">
+        <i class="info-icon">i</i>
+        <span class="tooltip-text">
+            <strong>Instructions:</strong> <br>
+            - Tap a grid to make your move. <br>
+            - Player 'X' always goes first. <br>
+            - Scores update automatically after each game. <br>
+            - Use "Play Again" to restart, or "Reset" to start over. <br>
+            - Click on Home icon to return to the main menu.
+        </span>
+    </div>
+    
+    <div class="container">
+        <div class="scoreboard1">
+            <h2 class="scorecard" style="color: #08D9D6;">Score Card</h2>
+            <h2>Total Games : <span id="games">0</span></h2>
+            <table id="scoreboard">
+                <tr>
+                    <th id="playerXName">X</th>
+                    <th id="Tie">Draw</th>
+                    <th id="playerOName">O</th>
+                </tr>
+                <tr>
+                    <td id="scoreX">0</td>
+                    <td id="scoreTie">0</td>
+                    <td id="scoreO">0</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="main-grid1">
+            <div class="turn-container">
+                <h3>Player's Turn</h3>
+                <div class="turn-box align" id="player1name"></div>
+                <div class="turn-box align" id="player2name"></div>
+                <div class="bg"></div>
+            </div>
+    
+            <div class="main-grid">
+                <div class="box align"></div>
+                <div class="box align"></div>
+                <div class="box align"></div>
+                <div class="box align"></div>
+                <div class="box align"></div>
+                <div class="box align"></div>
+                <div class="box align"></div>
+                <div class="box align"></div>
+                <div class="box align"></div>
+                <div class="vertical-line"></div>
+                <div class="horizontal-line"></div>
+            </div>
+        
+            <h2 id="results"></h2>
+            <!-- Removed Play Again and Reset buttons from here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
