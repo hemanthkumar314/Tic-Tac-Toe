@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
+    <link rel="icon" type="avif" href="icon.avif">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <!-- Home Icon  -->
     <i id="homeIcon" class="fa-solid fa-house home-icon"></i>
-
+    <!-- Instructions icon Showcase -->
     <div class="instructions-container">
         <i class="info-icon">i</i>
         <span class="tooltip-text">
@@ -26,6 +28,7 @@
     </div>
     
     <div class="container">
+        <!-- Overall ScoreCard Display -->
         <div class="scoreboard1">
             <h2 class="scorecard" style="color: #08D9D6;">Score Card</h2>
             <h2>Total Games : <span id="games">0</span></h2>
@@ -42,8 +45,9 @@
                 </tr>
             </table>
         </div>
-
+        <!-- 3x3 grid game board Design -->
         <div class="main-grid1">
+            <!-- showcasing Player's Turn -->
             <div class="turn-container">
                 <h3>Player's Turn</h3>
                 <div class="turn-box align" id="player1name"></div>
@@ -68,8 +72,8 @@
                 <div class="horizontal-line"></div>
             </div>
         
-            <h2 id="results"></h2>
-            <!-- Removed Play Again and Reset buttons from here -->
+            <h2 id="results"></h2><!--To show the result of a game-->
+            
         </div>
     </div>
     <script src="script.js"></script>

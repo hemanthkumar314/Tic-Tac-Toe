@@ -7,7 +7,7 @@ document.getElementById('playerForm').addEventListener('submit', function(event)
 
     // Check if both names are the same after converting to lowercase
     if(player1 === player2) {
-        alert("Both names are the same!");
+        alert("Both names are the same!Try Different names");
         location.reload(); // Refresh the page after the alert
         return; // Stop the form submission
     }

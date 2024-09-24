@@ -102,7 +102,6 @@ body {
 #scoreboard th {
     font-weight: bold;
     background: rgba(255, 255, 255, 0.1);
-    /* border-bottom: 2px solid rgba(255, 255, 255, 0.2); */
     color: #FFF0D1;
 }
 
@@ -111,7 +110,6 @@ body {
     color: #FFFAF0;
     position: relative;
     background-color: rgba(255, 255, 255, 0.1);
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
 }
 
 /* Neon Highlight on Score Change */
@@ -171,7 +169,6 @@ body {
 }
 
 .turn-container .turn-box {
-    /* border: 1px solid #000; */
     font-size: 1rem;
     font-weight: 700;
 }
@@ -211,9 +208,9 @@ body {
     }
 }
 
+/* Media query for smaller screens (like mobiles) */
 @media screen and (max-width: 600px) {
     .container {
-        /* flex-direction: row; */
         justify-content: space-between;
         align-items: flex-start;
         width: 80%;
@@ -232,6 +229,7 @@ body {
     }
 }
 
+/* instructions icon styling */
 .instructions-container {
     position: fixed;
     top: 20px;
@@ -290,7 +288,7 @@ body {
     border-style: solid;
     border-color: transparent transparent #08D9D6 transparent;
 }
-
+/* Home Icon styling */
 .home-icon {
     position: fixed;
     top: 25px;
@@ -381,7 +379,7 @@ body {
 @keyframes drawHorizontalLine {
     to { width: 100%; }
 }
-
+/* Winner popup styling */
 .winner-popup {
     position: fixed;
     top: 0;
