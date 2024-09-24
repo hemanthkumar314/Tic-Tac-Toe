@@ -3,22 +3,26 @@
 ## Overview
 A simple, interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. This classic game features a clean, modern interface and allows two players to compete against each other.
 
+## Links
+ 
+
 ## Key Features
-- **User-Friendly Interface**: Enjoy a simple and intuitive game board design
-- **Two-Player Gameplay**: Take turns playing as 'X' and 'O' on the same device.
-- **Win Detection**:Automatically detects and announces the winner or a draw.
-- **Score Tracking**: Keeps track of wins and draws for both players across multiple games.
-- **Reset Functionality**: Easily start a new game or reset the entire score.
+- **User-Friendly Interface**: Enjoy a simple and intuitive game board design.The grid layout is visually appealing, ensuring a smooth and engaging user experience. Whether you're playing on a desktop or mobile device, the interface adapts seamlessly for optimal play.
+- **Two-Player Gameplay**: Tic-Tac-Toe allows for a fun and competitive experience as two players take turns playing as 'X' and 'O' on the same device. The turn-based system highlights whose turn it is, reducing confusion and keeping the game flow smooth.
+- **Win Detection**:The game is equipped with an automatic win detection algorithm that immediately recognizes when a player has won by completing three of their symbols in a row (horizontally, vertically, or diagonally). The game will also detect when all cells are filled and no player has won, declaring it a draw.
+- **Score Tracking**: Across multiple games, the score for both players is tracked and updated in real-time. This feature allows for ongoing competition between players as the wins and draws are recorded. The scoreboard is designed to display the current score for both 'X', 'O', and draws, making it easy to see who's in the lead.
+- **Reset Functionality**: With a simple click of the reset button, players can either start a new round while keeping their current score or completely reset the score to begin a fresh session. 
 
 ## Usage
-Open the home.html file in your web browser.
-Player 1 starts as 'X' and Player 2 as 'O'.
-Click on an empty cell to make your move.
-The game will automatically switch turns between players.
-The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins.
-If all cells are filled and no player has won, the game is a draw.
-Use the "Play Again" button to start a new game while keeping the score.
-Use the "Reset" button to clear the score and start fresh.
+
+1. Open the `home.html` file in your web browser.
+2. Player 1 starts as 'X' and Player 2 as 'O'.
+3. Click on an empty cell to make your move.
+4. The game will automatically switch turns between players.
+5. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins.
+6. If all cells are filled and no player has won, the game is a draw.
+7. Use the "Play Again" button to start a new game while keeping the score.
+8. Use the "Reset" button to clear the score and start fresh.
 
 ## Technologies Used
 
