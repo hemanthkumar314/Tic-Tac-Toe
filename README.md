@@ -10,6 +10,16 @@ A simple, interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. Thi
 - **Score Tracking**: Keeps track of wins and draws for both players across multiple games.
 - **Reset Functionality**: Easily start a new game or reset the entire score.
 
+## Usage
+Open the home.html file in your web browser.
+Player 1 starts as 'X' and Player 2 as 'O'.
+Click on an empty cell to make your move.
+The game will automatically switch turns between players.
+The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins.
+If all cells are filled and no player has won, the game is a draw.
+Use the "Play Again" button to start a new game while keeping the score.
+Use the "Reset" button to clear the score and start fresh.
+
 ## Technologies Used
 
 - **HTML5**: Structures the game board and UI elements.
