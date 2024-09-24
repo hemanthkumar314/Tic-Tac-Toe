@@ -8,6 +8,9 @@ document.getElementById('playerOName').textContent = player2Name;
 document.getElementById('player1name').textContent = player1Name + " (X)";
 document.getElementById('player2name').textContent = player2Name + " (O)";
 
+const clickSound = document.getElementById("clickSound");
+const gameOverSound = document.getElementById("gameOverSound");
+
 // Initialize game variables
 let boxes = document.querySelectorAll(".box");
 let turn = "X"; // Current player's turn
@@ -23,6 +26,7 @@ function updateScores() {
     document.querySelector("#scoreO").innerHTML = scoreO;
     document.querySelector("#scoreTie").innerHTML = scoreTie;
     document.querySelector("#games").innerHTML = games;
+
 }
 
 // Initial score update call
@@ -35,6 +39,7 @@ boxes.forEach(e => {
         // Proceed if the game is not over and the box is empty
         if (!isGameOver && e.innerHTML === "") {
             e.innerHTML = turn; // Set the current player's symbol
+            clickSound.play();
             checkWin(); 
             checkDraw(); 
             changeTurn(); 
@@ -68,7 +73,8 @@ function checkWin() {
         let v2 = boxes[winConditions[i][2]].innerHTML;
 
         if (v0 != "" && v0 === v1 && v0 === v2) {
-            isGameOver = true; 
+            isGameOver = true;
+            gameOverSound.play(); 
             
             if (turn === "X") {
                 scoreX++;
@@ -99,7 +105,8 @@ function checkDraw() {
         });
 
         if (isDraw) {
-            isGameOver = true; 
+            isGameOver = true;
+            gameOverSound.play(); 
             showWinnerPopup("Draw"); 
             scoreTie++; 
             games++; 
@@ -166,7 +173,7 @@ function resetGame() {
 
 // Event listener for the home icon to redirect to the main page
 document.getElementById('homeIcon').addEventListener('click', function() {
-    window.location.href = 'main.html';
+    window.location.href = 'home.html';
 });
 
 // Create a style element and append it to the document head
