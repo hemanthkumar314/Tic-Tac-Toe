@@ -1,10 +1,12 @@
 # Tic Tac Toe Game
 
 ## Overview
-A simple, interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. This classic game features a clean, modern interface and allows two players to compete against each other.
+This Tic Tac Toe game is developed with HTML, CSS, and JavaScript. Designed for two players, it allows participants to enter their names and play. With its dark theme and stylish layout, the game offers a polished and enjoyable user experience, perfect for friendly competition.
 
-## Links
- 
+## Link
+
+- [Demo Video](https://drive.google.com/drive/folders/1HPk469h3_FrsMJslPvaqFghPg6xc3Suy?usp=drive_link) – Watch a demonstration of the game.
+
 
 ## Key Features
 - **User-Friendly Interface**: Enjoy a simple and intuitive game board design.The grid layout is visually appealing, ensuring a smooth and engaging user experience. Whether you're playing on a desktop or mobile device, the interface adapts seamlessly for optimal play.
